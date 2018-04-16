@@ -1,0 +1,11 @@
+{
+  "name": "@macrostrat/larkin-template",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating an API with Larkin",
+  "main": "server.js",
+  "author": "John J Czaplewski",
+  "license": "MIT",
+  "dependencies": {
+    "@macrostrat/larkin": "git+https://github.com/UW-Macrostrat/larkin.git"
+  }
+}
