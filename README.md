@@ -15,6 +15,13 @@ npm install
 npm start
 ````
 
+## Commands
+
+### Create a new route
+````
+npm run createRoute newRoute
+````
+
 ## Funding  
 Development supported by NSF CAREER EAR-1150082 and NSF ICER-1440312.
 
