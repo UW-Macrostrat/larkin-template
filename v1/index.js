@@ -1,5 +1,4 @@
-//const Larkin = require('@macrostrat/larkin')
-const Larkin = require('../../larkin-2018')
+const Larkin = require('@macrostrat/larkin')
 const fs = require('fs')
 const pg = require('./db/postgres')
 
