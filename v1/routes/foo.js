@@ -1,12 +1,16 @@
 module.exports = {
   path: '/foo',
   description: 'An example route',
+  requiredParameters: [],
+  requiresOneOf: ['thing'],
   parameters: {
     'thing': {
-      'type': 'text[]'
+      'type': 'text[]',
+      'description': 'Just a thing. Can be more than one thing'
     },
     'format': {
       'type': 'text',
+      'description': 'Desired output format',
       'values': [ 'json', 'csv' ]
     }
   },
