@@ -1,4 +1,4 @@
-# larkin-template @ master
+# larkin-template @ postgres
 Examples using `@macrostrat/larkin` to help you get building an API
 
 ## About
