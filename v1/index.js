@@ -1,5 +1,7 @@
-const Larkin = require('@macrostrat/larkin')
+//const Larkin = require('@macrostrat/larkin')
+const Larkin = require('../../larkin-2018')
 const fs = require('fs')
+const pg = require('./db/postgres')
 
 // Define a new larkin instance
 let v1 = new Larkin({
@@ -14,5 +16,8 @@ fs.readdirSync(`${__dirname}/routes`).forEach(file => {
     v1.registerRoute(require(`./routes/${file}`))
   }
 })
+
+// Add postgres as a plugin
+v1.registerPlugin('pg', pg)
 
 module.exports = v1
